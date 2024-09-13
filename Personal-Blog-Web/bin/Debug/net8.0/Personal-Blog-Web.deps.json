@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Personal-Blog-Web/1.0.0": {
+        "runtime": {
+          "Personal-Blog-Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Personal-Blog-Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
