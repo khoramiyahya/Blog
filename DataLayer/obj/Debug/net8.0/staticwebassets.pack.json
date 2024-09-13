@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Github\\Blog\\DataLayer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DataLayer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DataLayer.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Github\\Blog\\DataLayer\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "E:\\Github\\Blog\\DataLayer\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DataLayer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DataLayer.props",
+      "PackagePath": "build\\DataLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DataLayer.props",
+      "PackagePath": "buildMultiTargeting\\DataLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DataLayer.props",
+      "PackagePath": "buildTransitive\\DataLayer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

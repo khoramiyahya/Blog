@@ -2,5 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CoreLayer/bin/Debug/net8.0
-/DataLayer/bin/Debug/net8.0
+/CoreLayer/bin
+/DataLayer/bin
+/Personal-Blog-Web/bin

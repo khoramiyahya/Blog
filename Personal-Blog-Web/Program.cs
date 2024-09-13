@@ -1,7 +1,15 @@
+using DataLayer.Context;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<BlogDbContext>(option =>
+{
+    option.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PersonalBlog;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+});
 
 var app = builder.Build();
 
