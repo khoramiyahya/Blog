@@ -212,20 +212,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "CoreLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "DataLayer": "1.0.0",
-          "Microsoft.AspNetCore.Components.Web": "8.0.8"
-        },
-        "compile": {
-          "bin/placeholder/CoreLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CoreLayer.dll": {}
-        }
-      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -599,11 +585,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "CoreLayer/1.0.0": {
-      "type": "project",
-      "path": "../CoreLayer/CoreLayer.csproj",
-      "msbuildProject": "../CoreLayer/CoreLayer.csproj"
-    },
     "DataLayer/1.0.0": {
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
@@ -612,7 +593,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CoreLayer >= 1.0.0"
+      "DataLayer >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Web >= 8.0.8"
     ]
   },
   "packageFolders": {
@@ -621,11 +603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\Blog\\Personal-Blog-Web\\Personal-Blog-Web.csproj",
-      "projectName": "Personal-Blog-Web",
-      "projectPath": "E:\\Github\\Blog\\Personal-Blog-Web\\Personal-Blog-Web.csproj",
+      "projectUniqueName": "E:\\Github\\Blog\\CoreLayer\\CoreLayer.csproj",
+      "projectName": "CoreLayer",
+      "projectPath": "E:\\Github\\Blog\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\byte.ir\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\Blog\\Personal-Blog-Web\\obj\\",
+      "outputPath": "E:\\Github\\Blog\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\byte.ir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -643,8 +625,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Github\\Blog\\CoreLayer\\CoreLayer.csproj": {
-              "projectPath": "E:\\Github\\Blog\\CoreLayer\\CoreLayer.csproj"
+            "E:\\Github\\Blog\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "E:\\Github\\Blog\\DataLayer\\DataLayer.csproj"
             }
           }
         }
@@ -663,6 +645,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": {
+            "target": "Package",
+            "version": "[8.0.8, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -675,9 +663,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
