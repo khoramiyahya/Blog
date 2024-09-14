@@ -13,3 +13,8 @@
 /Personal-Blog-Web/obj/
 /CoreLayer/obj/
 /DataLayer/obj/
+/CoreLayer/obj/Debug/net8.0/ref/CoreLayer.dll
+/CoreLayer/obj/Debug/net8.0/refint/CoreLayer.dll
+/CoreLayer/obj/Debug/net8.0/CoreLayer.AssemblyInfo.cs
+/DataLayer/obj/Debug/net8.0/ref/DataLayer.dll
+/DataLayer/obj/Debug/net8.0/refint/DataLayer.dll
