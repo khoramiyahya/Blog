@@ -16,6 +16,7 @@ namespace DataLayer.Entitiies
         public int UserId { get; set; }
         public int PostId { get; set; }
         [Required]
+        [MaxLength(3000)]
         public string Text { get; set; }
 
         [ForeignKey("PostId")]

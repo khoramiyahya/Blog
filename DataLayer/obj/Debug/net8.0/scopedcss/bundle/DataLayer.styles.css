@@ -1,3 +1,5 @@
+@import '_content/CoreLayer/CoreLayer.bundle.scp.css';
+
 /* _content/DataLayer/Component1.razor.rz.scp.css */
 .my-component[b-bx89kgth71] {
     border: 2px dashed red;

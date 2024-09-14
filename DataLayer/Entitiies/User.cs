@@ -13,9 +13,12 @@ namespace DataLayer.Entitiies
         [Key]
         public int Id { get; set; }
         [Required]
+        [MaxLength(100)]
         public string Username { get; set; }
+        [MaxLength(300)]
         public string FullName { get; set; }
         [Required]
+        [MaxLength(100)]
         public string Password { get; set; }
         public UserRole Role { get; set; }
 

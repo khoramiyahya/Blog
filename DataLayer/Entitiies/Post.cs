@@ -15,8 +15,10 @@ namespace DataLayer.Entitiies
         public int UserId { get; set; }
         public int CategoryId { get; set; }
         [Required]
+        [MaxLength(300)]
         public string Title { get; set; }
         [Required]
+        [MaxLength(300)]
         public string Slug { get; set; }//URL String For Post
         [Required]
         public string Description { get; set; }
