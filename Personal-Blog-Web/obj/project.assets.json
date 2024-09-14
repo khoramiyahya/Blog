@@ -4328,19 +4328,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\byte.ir\\.nuget\\packages\\": {}
+    "C:\\Users\\y.khorami\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\Blog\\Personal-Blog-Web\\Personal-Blog-Web.csproj",
+      "projectUniqueName": "D:\\GitHubs\\Blog\\Personal-Blog-Web\\Personal-Blog-Web.csproj",
       "projectName": "Personal-Blog-Web",
-      "projectPath": "E:\\Github\\Blog\\Personal-Blog-Web\\Personal-Blog-Web.csproj",
-      "packagesPath": "C:\\Users\\byte.ir\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\Blog\\Personal-Blog-Web\\obj\\",
+      "projectPath": "D:\\GitHubs\\Blog\\Personal-Blog-Web\\Personal-Blog-Web.csproj",
+      "packagesPath": "C:\\Users\\y.khorami\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHubs\\Blog\\Personal-Blog-Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\byte.ir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\y.khorami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4355,8 +4355,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Github\\Blog\\CoreLayer\\CoreLayer.csproj": {
-              "projectPath": "E:\\Github\\Blog\\CoreLayer\\CoreLayer.csproj"
+            "D:\\GitHubs\\Blog\\CoreLayer\\CoreLayer.csproj": {
+              "projectPath": "D:\\GitHubs\\Blog\\CoreLayer\\CoreLayer.csproj"
             }
           }
         }
@@ -4402,7 +4402,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
