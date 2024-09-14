@@ -5,3 +5,5 @@
 /CoreLayer/bin
 /DataLayer/bin
 /Personal-Blog-Web/bin
+/.vs
+/Personal-Blog-Web/obj/Debug/net8.0/Personal-Blog-Web.AssemblyInfo.cs
