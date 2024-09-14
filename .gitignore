@@ -6,4 +6,6 @@
 /DataLayer/bin
 /Personal-Blog-Web/bin
 /.vs
-/Personal-Blog-Web/obj/Debug/net8.0/Personal-Blog-Web.AssemblyInfo.cs
+/Personal-Blog-Web/obj
+/CoreLayer/obj
+/DataLayer/obj
