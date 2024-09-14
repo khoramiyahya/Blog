@@ -5,6 +5,7 @@
 /CoreLayer/bin
 /DataLayer/bin
 /Personal-Blog-Web/bin
+/Personal-Blog-Web/.vs/
 /.vs
 /Personal-Blog-Web/obj
 /CoreLayer/obj
