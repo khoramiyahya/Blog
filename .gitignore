@@ -18,3 +18,7 @@
 /CoreLayer/obj/Debug/net8.0/CoreLayer.AssemblyInfo.cs
 /DataLayer/obj/Debug/net8.0/ref/DataLayer.dll
 /DataLayer/obj/Debug/net8.0/refint/DataLayer.dll
+/Personal-Blog-Web/obj/Personal-Blog-Web.csproj.nuget.g.props
+/CoreLayer/obj/CoreLayer.csproj.nuget.g.props
+/DataLayer/obj/Debug/net8.0/DataLayer.csproj.AssemblyReference.cache
+/DataLayer/obj/DataLayer.csproj.nuget.g.props
