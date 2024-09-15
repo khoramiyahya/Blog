@@ -20,6 +20,7 @@ namespace DataLayer.Entitiies
         public string MetaTag { get; set; }
         public string MetaDescription { get; set; }
         public DateTime CreationDate { get; set; }
+        public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }
 
         public ICollection<Post> Posts { get; set; }

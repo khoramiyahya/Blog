@@ -21,6 +21,7 @@ namespace DataLayer.Entitiies
         [MaxLength(100)]
         public string Password { get; set; }
         public DateTime CreationDate { get; set; }
+        public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }
 
 

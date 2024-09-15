@@ -24,7 +24,9 @@ namespace DataLayer.Entitiies
         public string Description { get; set; }
         public int Visit { get; set; }
         public DateTime CreationDate { get; set; }
+        public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }
+
 
 
 
