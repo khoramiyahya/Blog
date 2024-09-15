@@ -11,7 +11,7 @@ namespace DataLayer.Entitiies
     {
         [Key]
         public TKey Id { get; set; }
-        public DateTime CreationDate { get; set; }
+        public DateTime CreationDate { get; set; }= DateTime.Now;
         public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }
     }
