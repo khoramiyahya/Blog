@@ -18,6 +18,10 @@ namespace DataLayer.Entitiies
         [Required]
         [MaxLength(3000)]
         public string Text { get; set; }
+        public DateTime CreationDate { get; set; }
+        public bool IsDelete { get; set; }
+
+
 
         [ForeignKey("PostId")]
         public Post Post { get; set; }

@@ -20,8 +20,11 @@ namespace DataLayer.Entitiies
         [Required]
         [MaxLength(100)]
         public string Password { get; set; }
-        public UserRole Role { get; set; }
+        public DateTime CreationDate { get; set; }
+        public bool IsDelete { get; set; }
 
+
+        public UserRole Role { get; set; }
         public ICollection<Post> Posts { get; set; }
         public ICollection<PostComment> PostComments { get; set; }
 

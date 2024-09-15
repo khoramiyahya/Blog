@@ -19,6 +19,9 @@ namespace DataLayer.Entitiies
         public string Slug { get; set; }
         public string MetaTag { get; set; }
         public string MetaDescription { get; set; }
+        public DateTime CreationDate { get; set; }
+        public bool IsDelete { get; set; }
+
         public ICollection<Post> Posts { get; set; }
 
 

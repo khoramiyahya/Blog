@@ -23,6 +23,10 @@ namespace DataLayer.Entitiies
         [Required]
         public string Description { get; set; }
         public int Visit { get; set; }
+        public DateTime CreationDate { get; set; }
+        public bool IsDelete { get; set; }
+
+
 
         [ForeignKey("UserId")]
         public User User { get; set; }
