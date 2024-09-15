@@ -17,7 +17,6 @@ namespace DataLayer.Entitiies
         [Required]
         [MaxLength(300)]
         public string Slug { get; set; }
-        
         public string MetaTag { get; set; }
         public string MetaDescription { get; set; }
         public ICollection<Post> Posts { get; set; }

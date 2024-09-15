@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<BlogDbContext>(option =>
 {
-    option.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PersonalBlog;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+    var dbstr = builder.Configuration.GetConnectionString("BlogConnStr");
+    option.UseSqlServer(dbstr);
 });
 
 var app = builder.Build();
