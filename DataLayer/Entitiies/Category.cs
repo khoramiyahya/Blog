@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class Category : BaseEntity
+    public class Category : BaseEntity<int>
     {
         [Required]
         [MaxLength(300)]
@@ -21,7 +21,7 @@ namespace DataLayer.Entitiies
         
         #region Relation
         public ICollection<Post> Posts { get; set; }
-        #region
+        #endregion
 
 
 

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class Post : BaseEntity
+    public class Post : BaseEntity<int>
     {
        
         public int UserId { get; set; }
@@ -32,7 +32,7 @@ namespace DataLayer.Entitiies
         public Category Category { get; set; }
 
         public ICollection<PostComment> PostComments { get; set; }
-        #region
+        #endregion
 
 
 

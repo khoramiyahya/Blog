@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Entitiies
 {
-    public class BaseEntity
+    public class BaseEntity<TKey>
     {
         [Key]
-        public int Id { get; set; }
+        public TKey Id { get; set; }
         public DateTime CreationDate { get; set; }
         public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }

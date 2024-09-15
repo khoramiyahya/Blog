@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class PostComment :BaseEntity
+    public class PostComment :BaseEntity<int>
     {
         
         public int UserId { get; set; }
@@ -25,7 +25,7 @@ namespace DataLayer.Entitiies
 
         [ForeignKey("UserId")]
         public User User { get; set; }
-        #region
+        #endregion
 
 
     }

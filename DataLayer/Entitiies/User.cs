@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class User :BaseEntity
+    public class User :BaseEntity<int>
     {
         [Key]
         public int Id { get; set; }
@@ -26,7 +26,7 @@ namespace DataLayer.Entitiies
         public UserRole Role { get; set; }
         public ICollection<Post> Posts { get; set; }
         public ICollection<PostComment> PostComments { get; set; }
-        #region
+        #endregion
 
 
 
