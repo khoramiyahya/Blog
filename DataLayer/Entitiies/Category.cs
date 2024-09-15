@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class Category
+    public class Category : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         [Required]
         [MaxLength(300)]
         public string Title { get; set; }
@@ -19,9 +17,7 @@ namespace DataLayer.Entitiies
         public string Slug { get; set; }
         public string MetaTag { get; set; }
         public string MetaDescription { get; set; }
-        public DateTime CreationDate { get; set; }
-        public string CreattionUsername { get; set; }
-        public bool IsDelete { get; set; }
+      
         
         #region Relation
         public ICollection<Post> Posts { get; set; }

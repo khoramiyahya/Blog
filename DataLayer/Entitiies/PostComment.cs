@@ -9,18 +9,15 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class PostComment
+    public class PostComment :BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
+        
         public int UserId { get; set; }
         public int PostId { get; set; }
         [Required]
         [MaxLength(3000)]
         public string Text { get; set; }
-        public DateTime CreationDate { get; set; }
-        public string CreattionUsername { get; set; }
-        public bool IsDelete { get; set; }
+   
 
         #region Relation
         [ForeignKey("PostId")]

@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class Post
+    public class Post : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
+       
         public int UserId { get; set; }
         public int CategoryId { get; set; }
         [Required]
@@ -23,9 +22,7 @@ namespace DataLayer.Entitiies
         [Required]
         public string Description { get; set; }
         public int Visit { get; set; }
-        public DateTime CreationDate { get; set; }
-        public string CreattionUsername { get; set; }
-        public bool IsDelete { get; set; }
+       
 
 
         #region Relation

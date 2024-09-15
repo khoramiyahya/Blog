@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 //Domain Model
 namespace DataLayer.Entitiies
 {
-    public class User
+    public class User :BaseEntity
     {
         [Key]
         public int Id { get; set; }
@@ -20,9 +20,7 @@ namespace DataLayer.Entitiies
         [Required]
         [MaxLength(100)]
         public string Password { get; set; }
-        public DateTime CreationDate { get; set; }
-        public string CreattionUsername { get; set; }
-        public bool IsDelete { get; set; }
+     
 
         #region Relation
         public UserRole Role { get; set; }
