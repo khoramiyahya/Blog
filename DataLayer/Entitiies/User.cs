@@ -24,10 +24,12 @@ namespace DataLayer.Entitiies
         public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }
 
-
+        #region Relation
         public UserRole Role { get; set; }
         public ICollection<Post> Posts { get; set; }
         public ICollection<PostComment> PostComments { get; set; }
+        #region
+
 
 
     }

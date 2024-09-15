@@ -28,14 +28,16 @@ namespace DataLayer.Entitiies
         public bool IsDelete { get; set; }
 
 
-
-
+        #region Relation
         [ForeignKey("UserId")]
         public User User { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
 
         public ICollection<PostComment> PostComments { get; set; }
+        #region
+
+
 
 
     }

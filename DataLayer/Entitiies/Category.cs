@@ -22,8 +22,11 @@ namespace DataLayer.Entitiies
         public DateTime CreationDate { get; set; }
         public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }
-
+        
+        #region Relation
         public ICollection<Post> Posts { get; set; }
+        #region
+
 
 
     }

@@ -22,12 +22,14 @@ namespace DataLayer.Entitiies
         public string CreattionUsername { get; set; }
         public bool IsDelete { get; set; }
 
-
-
+        #region Relation
         [ForeignKey("PostId")]
         public Post Post { get; set; }
 
         [ForeignKey("UserId")]
         public User User { get; set; }
+        #region
+
+
     }
 }
