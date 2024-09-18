@@ -33,9 +33,5 @@ namespace DataLayer.Entitiies
 
         public ICollection<PostComment> PostComments { get; set; }
         #endregion
-
-
-
-
     }
 }
