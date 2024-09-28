@@ -1,0 +1,22 @@
+﻿@page
+@model Personal_Blog_Web.Pages.Login.LoginModel
+@{
+    Layout = "_LoginLayout";
+    ViewData["Title"] = "ورود به سایت";
+}
+
+
+<form action="">
+    <h1> @ViewData["Title"] </h1>
+    <div>
+        <input type="text" placeholder="نام کاربری" required="" id="username" />
+    </div>
+    <div>
+        <input type="password" placeholder="کلمه عبور" required="" id="password" />
+    </div>
+    <div>
+        <input type="submit" value="ورود" />
+        <a href="#">فراموشی کلمه عبور</a>
+        <a href="#">ورود به سایت </a>
+    </div>
+</form>
